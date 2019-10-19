@@ -4,21 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "90acd78800e7978153de3ead3603fc01",
+    "content-hash": "a1b256f8208a1768106d8c3e485c87f0",
     "packages": [
         {
             "name": "avored/framework",
             "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flexander/framework.git",
-                "reference": "151f6cab186f3387d29b52c37d46f5cf45244d6a"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flexander/framework/zipball/151f6cab186f3387d29b52c37d46f5cf45244d6a",
-                "reference": "151f6cab186f3387d29b52c37d46f5cf45244d6a",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/alex/Repositories/avored-framework",
+                "reference": "88d0c7d5f0040fd8cb6f76e09c921e943fc65e86",
+                "shasum": null
             },
             "require": {
                 "barryvdh/laravel-dompdf": "^0.8.4",
@@ -95,8 +90,7 @@
                 "forum": "https://www.avored.com/discussion",
                 "wiki": "https://www.avored.com/docs",
                 "source": "https://www.github.com/avored/framework"
-            },
-            "time": "2019-10-16T19:44:07+00:00"
+            }
         },
         {
             "name": "barryvdh/laravel-dompdf",
